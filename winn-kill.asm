@@ -1,6 +1,6 @@
 section .data
     message db 'SEE YOU LATER BABY 😈', 0
-    smiley db '😀😂😈 Melissa was here!', 0
+    smiley db '😀😂😈 SLWNullDestroyer was here!', 0
 
 section .bss
 
